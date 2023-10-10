@@ -1,0 +1,56 @@
+{
+    "questions": [
+      {
+        "title": "Hviken av disse er feil påstand om hvorfor vi skriver tester?",
+        "answers": [
+          { "answere": "Lettere stole på koden vår (trygghet)" },
+          { "answere": "Bedre kontroll / mer bevisst når vi lager logikk" },
+          { "answere": "Gi en form for dokumentasjon andre utviklere kan lese" },
+          { "answere": "Øke kvaliteten på koden vi skriver"},
+          { "answere": "Redusert effektivitet", "correct": true }
+        ],
+        "helper": {
+          "text": "God testing gjør jo at effektiviteten skal øke"
+        }
+      },
+      {
+        "title": "Hva slags tester har vi?",
+        "answers": [
+          { "answere": "Enhetstester" },
+          { "answere": "Integrasjonstester"},
+          { "answere": "Ende til ende tester" },
+          { "answere": "Alle de nevnte", "correct": true },
+          { "answere": "Alle de nevnte" }
+        ],
+        "helper": {
+          "text": "kanskje alle?"
+        }
+      },
+      {
+        "title": "Hvilken av disse kan vi ikke bruke for å asserte at noe er riktig?",
+        "answers": [
+          { "answere": "toEqual" },
+          { "answere": "toBeTruthy" },
+          { "answere": "toHaveLength" },
+          { "answere": "toAppearIn", "correct": true }
+        ],
+        "helper": {
+          "text": "Den siste høres god ut"
+        }
+      },
+      {
+        "title": "Hva må stå i render() for at vi skal teste en komponent fra Product.jsx",
+        "answers": [
+          { "answere": "Product" },
+          { "answere": "<Product />", "correct": true },
+          { "answere": "ProductList" },
+          { "answere": "<Product></Product>" }
+        ],
+        "helper": {
+          "text": "Det er hvertfall noe med Product"
+        }
+      }
+    ]
+  }
+
+  
